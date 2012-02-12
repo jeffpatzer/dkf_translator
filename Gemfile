@@ -23,7 +23,7 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
   
-  gem 'bootstrap-sass'
+  gem 'bootstrap-sass-rails'
 end
 
 gem 'jquery-rails', '2.0.0'
