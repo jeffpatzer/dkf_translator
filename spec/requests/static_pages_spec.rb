@@ -5,7 +5,6 @@ describe "Static pages" do
   subject { page }
   
   describe "Home page" do
-    
     before { visit root_path }
     
     it { should have_selector('h1',     text: 'DKF Translator') }
@@ -13,7 +12,6 @@ describe "Static pages" do
   end
   
   describe 'About page' do
-    
     before { visit about_path }
     
     it { should have_selector('h1',     text: 'About DKF Solutions') }
