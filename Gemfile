@@ -23,6 +23,7 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
   
+  gem "compass", ">= 0.11.7"
   gem 'bootstrap-sass-rails'
 end
 
