@@ -1,0 +1,23 @@
+/* line 1, ../../app/assets/stylesheets/layout.css.scss */
+body {
+  padding-top: 40px;
+}
+
+/* line 5, ../../app/assets/stylesheets/layout.css.scss */
+.navbar-fixed-top .brand {
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 20px;
+  float: right;
+  font-weight: bold;
+  color: #000;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 0 30px rgba(255, 255, 255, 0.125);
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+/* line 17, ../../app/assets/stylesheets/layout.css.scss */
+.navbar-fixed-top .brand:hover {
+  text-decoration: none;
+}
