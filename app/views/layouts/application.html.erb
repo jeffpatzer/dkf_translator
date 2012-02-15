@@ -7,19 +7,22 @@
     <%= csrf_meta_tags %>
   </head>
   <body>
+    <!-- Navbar -->
     <%= render 'layouts/navbar' %>
     <div class='container'>
+      <!-- Page Header -->
       <%= render 'layouts/header' %>
       <div class='row'>
-        <div class='span10'>
-          <section>
+        <!-- Body Content -->
+        <div class='span9'>
             <%= yield %>
-          </section>
         </div>
-        <div class='span2'>
-          Sidebar
+        <!-- Sidebar -->
+        <div class='span3'>
+          <%= render 'layouts/sidebar' %>
         </div>
       </div>
+      <!-- Page Footer -->
       <%= render 'layouts/footer' %>
     </div>
     <!-- Javascript at the bottom of the page for performance gains. -->
