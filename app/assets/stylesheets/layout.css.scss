@@ -1,9 +1,16 @@
 
+// General Layout 
+.center {
+  text-align:center;
+}
+
+// Responsive Design
 @media (min-width: 980px) {
   body {
     padding-top:50px;
   }  
 }
+
 
 
 .navbar-fixed-top .brand {
