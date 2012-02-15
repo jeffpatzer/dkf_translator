@@ -1,6 +1,10 @@
-body {
-  padding-top:40px;
+
+@media (min-width: 980px) {
+  body {
+    padding-top:50px;
+  }  
 }
+
 
 .navbar-fixed-top .brand {
   padding-right: 0;
