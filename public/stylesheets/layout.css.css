@@ -1,9 +1,10 @@
-/* line 1, ../../app/assets/stylesheets/layout.css.scss */
-body {
-  padding-top: 40px;
+@media (min-width: 980px) {
+  /* line 3, ../../app/assets/stylesheets/layout.css.scss */
+  body {
+    padding-top: 50px;
+  }
 }
-
-/* line 5, ../../app/assets/stylesheets/layout.css.scss */
+/* line 9, ../../app/assets/stylesheets/layout.css.scss */
 .navbar-fixed-top .brand {
   padding-right: 0;
   padding-left: 0;
@@ -17,7 +18,7 @@ body {
   transition: all .2s linear;
 }
 
-/* line 17, ../../app/assets/stylesheets/layout.css.scss */
+/* line 21, ../../app/assets/stylesheets/layout.css.scss */
 .navbar-fixed-top .brand:hover {
   text-decoration: none;
 }
